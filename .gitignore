@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+# Jupyter
+.ipynb_checkpoints/
+# VS Code
+.vscode/
+# OS files
+.DS_Store
+Thumbs.db
+# Python cache
+*.pyc
+# Temporary files
+*.tmp
+*.temp
+# Secrets
+.env
+*.env
+data/*.csv
+resutls/*.csv
+
+models/X_train.joblib
+models/X_test.joblib
+models/y_train.joblib
+models/y_test.joblib
+
+
+demand_predictions.csv
+*.csv
+*.joblib
